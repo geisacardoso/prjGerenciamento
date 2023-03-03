@@ -1,0 +1,16 @@
+<RCC>
+  <qresource prefix="logo">
+    <file>1x/arrow.png</file>
+    <file>1x/arrowhover.png</file>
+    <file>1x/iconaddperson.png</file>
+    <file>1x/iconattention.png</file>
+    <file>1x/icondelete.png</file>
+    <file>1x/iconlist.png</file>
+    <file>1x/iconedit.png</file>
+    <file>icones.qrc</file>
+    <file>1x/iconcar.png</file>
+    <file>1x/iconelogo.png</file>
+    <file>1x/minilogo.png</file>
+    <file>1x/logo.png</file>
+  </qresource>
+</RCC>

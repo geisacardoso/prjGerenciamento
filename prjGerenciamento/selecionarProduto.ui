@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>vertodosProduto</class>
+ <widget class="QMainWindow" name="vertodosProduto">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Gerenciamento de Produtos</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <selectedon>minilogo.png</selectedon>
+   </iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #EDF2F4;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btnInserir">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>168</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+position: absolute;
+width: 141px;
+height: 64px;
+left: 24px;
+top: 266px;
+
+border-radius: 16px;
+
+position: absolute;
+left: 2.84%;
+right: 2.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0C033C;
+
+}
+
+QPushButton:hover{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0C033C;
+border-radius: 16px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Inserir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnExcluir">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>462</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+position: absolute;
+width: 141px;
+height: 64px;
+left: 24px;
+top: 266px;
+
+border-radius: 16px;
+
+position: absolute;
+left: 2.84%;
+right: 2.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0C033C;
+
+}
+
+QPushButton:hover{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0C033C;
+border-radius: 16px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Excluir</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnverTodos">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>364</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0C033C;
+border-radius: 16px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+</string>
+    </property>
+    <property name="text">
+     <string>Ver Todos</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAtualizar">
+    <property name="geometry">
+     <rect>
+      <x>24</x>
+      <y>266</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+position: absolute;
+width: 141px;
+height: 64px;
+left: 24px;
+top: 266px;
+
+border-radius: 16px;
+
+position: absolute;
+left: 2.84%;
+right: 2.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0C033C;
+
+}
+
+QPushButton:hover{
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #0C033C;
+border-radius: 16px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Atualizar</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>94</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 800px;
+height: 94px;
+left: 0px;
+top: 0px;
+
+background: #0C033C;
+</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>295</x>
+       <y>32</y>
+       <width>344</width>
+       <height>36</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins</family>
+       <pointsize>-1</pointsize>
+       <weight>75</weight>
+       <italic>false</italic>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">position: absolute;
+width: 344px;
+height: 36px;
+left: 295px;
+top: 32px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+background: #0C033C;
+color: #FFFFFF;
+</string>
+     </property>
+     <property name="text">
+      <string>Gerenciamento de Produtos</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>72</x>
+       <y>20</y>
+       <width>100</width>
+       <height>60</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>iconelogo.png</pixmap>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>206</x>
+      <y>142</y>
+      <width>554</width>
+      <height>410</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">position: absolute;
+width: 554px;
+height: 410px;
+left: 206px;
+top: 142px;
+
+background: #FFFFFF;
+box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>190</y>
+      <width>31</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background: #FFFFFF;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>iconlist.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="back">
+    <property name="geometry">
+     <rect>
+      <x>32</x>
+      <y>32</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+image: url(:/logo/1x/arrow.png);
+
+background: #0C033C;
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+border-radius: 16px;
+}
+
+QPushButton:hover{
+
+image: url(:/logo/1x/arrowhover.png);
+
+background: #0C033C;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+border-radius: 16px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <selectedon>arrow.png</selectedon>
+     </iconset>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="tableProd">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>411</width>
+      <height>311</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTableWidget{
+	border: 1px solid #0C033C;
+	border-radius: 8,8,0,0px;
+	background: #EDF2F4;
+}
+
+QScrollBar:horizontal {
+    border: 2px solid;
+    background-color: #0F013F;
+    height: 15px;
+    margin: 0px 20px 0 20px;
+}
+QScrollBar::handle:horizontal {
+    background: white;
+    min-width: 20px;
+}
+QScrollBar::add-line:horizontal {
+    border: 2px solid;
+    background: #0C033C;
+    width: 20px;
+    subcontrol-position: right;
+    subcontrol-origin: margin;
+}
+
+QScrollBar::sub-line:horizontal {
+    border: 2px solid;
+    background: #0C033C;
+    width: 20px;
+    subcontrol-position: left;
+    subcontrol-origin: margin;
+}</string>
+    </property>
+    <column>
+     <property name="text">
+      <string>ID</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+     <property name="textAlignment">
+      <set>AlignCenter</set>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Valor</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Marca</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Cor</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Modelo</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Ano</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Km</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Combustível</string>
+     </property>
+     <property name="font">
+      <font>
+       <family>Poppins SemiBold</family>
+      </font>
+     </property>
+    </column>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>btnInserir</zorder>
+   <zorder>btnExcluir</zorder>
+   <zorder>btnverTodos</zorder>
+   <zorder>btnAtualizar</zorder>
+   <zorder>frame</zorder>
+   <zorder>label_2</zorder>
+   <zorder>back</zorder>
+   <zorder>tableProd</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>

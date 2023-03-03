@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>acessar</class>
+ <widget class="QMainWindow" name="acessar">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>BIGFast</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <selectedon>minilogo.png</selectedon>
+   </iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1000000000.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background: #0C033C;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="labellogo">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>751</width>
+      <height>361</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnfunc">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>390</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+box-sizing: border-box;
+
+position: absolute;
+width: 141px;
+height: 64px;
+left: 231px;
+top: 386px;
+
+background: rgba(237, 242, 244, 0.32);
+border: 2px solid #FF6700;
+border-radius: 16px;
+
+
+position: absolute;
+left: 2.84%;
+right: 2.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FF6700;
+}
+
+QPushButton:hover{
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF6700;
+border: 2px solid #FF6700;
+border-radius: 16px;
+position: absolute;
+width: 142px;
+height: 64px;
+left: 231px;
+top: 386px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Funcionários</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnprod">
+    <property name="geometry">
+     <rect>
+      <x>410</x>
+      <y>390</y>
+      <width>142</width>
+      <height>64</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Poppins</family>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <italic>false</italic>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton{
+box-sizing: border-box;
+
+position: absolute;
+width: 141px;
+height: 64px;
+left: 231px;
+top: 386px;
+
+background: rgba(237, 242, 244, 0.32);
+border: 2px solid #FF6700;
+border-radius: 16px;
+
+
+position: absolute;
+left: 2.84%;
+right: 2.84%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FF6700;
+}
+
+QPushButton:hover{
+box-sizing: border-box;
+
+position: absolute;
+left: 0%;
+right: 0%;
+top: 0%;
+bottom: 0%;
+
+background: #FF6700;
+border: 2px solid #FF6700;
+border-radius: 16px;
+position: absolute;
+width: 142px;
+height: 64px;
+left: 231px;
+top: 386px;
+
+position: absolute;
+left: 0.7%;
+right: 0.7%;
+top: 31.25%;
+bottom: 31.25%;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Produtos</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="icones.qrc"/>
+ </resources>
+ <connections/>
+</ui>
